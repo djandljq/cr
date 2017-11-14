@@ -1,0 +1,37 @@
+$sc:25;
+@mixin slh{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        margin: 0;
+        height: 100%;
+    }
+}
+.main-header{
+        width: 100%;
+        height: 45/$sc+rem;
+        line-height: 45/$sc+rem;
+        background:green;
+        text-align: center;
+        color: #fff;
+    }
+.cntent{
+    width: 100%;
+    height: 100%;
+   
+}   
